@@ -16,11 +16,10 @@
 
 ## 🚀 Features
 
-✅ Built with **Next.js 14+** (App Router)  
+✅ Built with **Next.js** 
 ✅ Fully responsive design – mobile-first  
 ✅ Elegant, accessible UI using **shadcn/ui**  
-✅ Utility-first styling via **Tailwind CSS**  
-✅ Dark mode support out of the box  
+✅ Utility-first styling via **Tailwind CSS**   
 ✅ Component-driven development  
 ✅ Performance-optimized and SEO-ready  
 ✅ Easily integratable with backend (e.g. REST or GraphQL)
@@ -34,10 +33,95 @@
 | **Next.js** | Full-stack React framework        |
 | **Tailwind**| Utility-first CSS for fast styling|
 | **shadcn/ui** | Modern, accessible UI components |
-| **TypeScript** (optional) | Safer code, better DX  |
-| **ESLint + Prettier** | Clean, consistent codebase |
 
 ---
 
 ## 🗂️ Project Structure
 
+grocery-bazaar/
+├── app/
+│   ├── _components/
+│   │   ├── CartItemList.jsx
+│   │   ├── CategoryList.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Header.jsx
+│   │   ├── ProductItem.jsx
+│   │   ├── ProductItemDetail.jsx
+│   │   ├── ProductList.jsx
+│   │   └── Slider.jsx
+│   ├── _context/
+│   │   └── UpdateCartContext.jsx
+│   ├── _utils/
+│   │   └── GlobalApi.jsx
+│   ├── (auth)/
+│   │   ├── create-account/
+│   │   │   └── page.jsx
+│   │   └── sign-in/
+│   │       └── page.jsx
+│   ├── (routes)/
+│   │   └── products-category/
+│   │       ├── _components/
+│   │       │   └── TopCategoryList.jsx
+│   │       └── [categoryName]/
+│   │           └── page.jsx
+│   ├── checkout/
+│   │   └── page.jsx
+│   ├── dashboard/
+│   │   └── page.jsx
+│   ├── myorder/
+│   │   └── page.jsx
+│   ├── profile/
+│   │   └── page.jsx
+│   └── search/
+│       └── page.jsx
+├── components/
+│   └── ui/
+│       ├── button.jsx
+│       ├── card.jsx
+│       ├── carousel.jsx
+│       ├── chart.jsx
+│       ├── dialog.jsx
+│       ├── dropdown-menu.jsx
+│       ├── input.jsx
+│       ├── select.jsx
+│       ├── sheet.jsx
+│       └── sonner.jsx
+├── lib/
+│   └── utils.js
+├── node_modules/
+├── public/
+├── .env.local
+├── .gitignore
+├── components.json
+├── favicon.ico
+├── globals.css
+├── jsconfig.json
+├── layout.js
+├── next.config.mjs
+├── page.jsx
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── README.md
+└── tailwind.config.js
+
+
+## 📦 Installation
+```bash
+# Clone the repo
+git clone https://github.com/Basudev07/Grocery-Bazaar-frontend.git
+
+# Navigate to project folder
+cd Grocery-Bazaar-frontend
+
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
+
+
+👤 Author
+Basudev Mondal
+📧 Email - basudevmondal740@gmail.com
+🔗 GitHub
