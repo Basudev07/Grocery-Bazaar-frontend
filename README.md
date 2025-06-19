@@ -40,70 +40,34 @@
 
 grocery-bazaar/
 ├── app/
-│   ├── _components/
-│   │   ├── CartItemList.jsx
-│   │   ├── CategoryList.jsx
-│   │   ├── Footer.jsx
-│   │   ├── Header.jsx
-│   │   ├── ProductItem.jsx
-│   │   ├── ProductItemDetail.jsx
-│   │   ├── ProductList.jsx
-│   │   └── Slider.jsx
-│   ├── _context/
-│   │   └── UpdateCartContext.jsx
-│   ├── _utils/
-│   │   └── GlobalApi.jsx
-│   ├── (auth)/
-│   │   ├── create-account/
-│   │   │   └── page.jsx
-│   │   └── sign-in/
-│   │       └── page.jsx
-│   ├── (routes)/
-│   │   └── products-category/
-│   │       ├── _components/
-│   │       │   └── TopCategoryList.jsx
-│   │       └── [categoryName]/
-│   │           └── page.jsx
-│   ├── checkout/
-│   │   └── page.jsx
-│   ├── dashboard/
-│   │   └── page.jsx
-│   ├── myorder/
-│   │   └── page.jsx
-│   ├── profile/
-│   │   └── page.jsx
-│   └── search/
-│       └── page.jsx
+│ ├── _components/ # Shared UI components (e.g., ProductItem, Header, Footer)
+│ ├── _context/ # React context for global state (e.g., UpdateCartContext)
+│ ├── _utils/ # API abstraction layer (e.g., GlobalApi)
+│ ├── (auth)/ # Auth routes for create-account and sign-in
+│ ├── (routes)/ # Dynamic category-based product listing
+│ ├── checkout/ # Checkout page
+│ ├── dashboard/ # User dashboard
+│ ├── myorder/ # Order history page
+│ ├── profile/ # User profile
+│ └── search/ # Product search results
+│
 ├── components/
-│   └── ui/
-│       ├── button.jsx
-│       ├── card.jsx
-│       ├── carousel.jsx
-│       ├── chart.jsx
-│       ├── dialog.jsx
-│       ├── dropdown-menu.jsx
-│       ├── input.jsx
-│       ├── select.jsx
-│       ├── sheet.jsx
-│       └── sonner.jsx
-├── lib/
-│   └── utils.js
-├── node_modules/
-├── public/
-├── .env.local
-├── .gitignore
-├── components.json
-├── favicon.ico
-├── globals.css
-├── jsconfig.json
-├── layout.js
-├── next.config.mjs
-├── page.jsx
-├── package-lock.json
-├── package.json
-├── postcss.config.mjs
-├── README.md
-└── tailwind.config.js
+│ └── ui/ # Custom UI components built using shadcn/ui (e.g., card, dialog, chart)
+│
+├── lib/ # Utility functions
+├── public/ # Static assets like images and icons
+├── .env.local # Local environment variables
+├── .gitignore # Git ignore rules
+├── components.json # shadcn/ui config (or custom component registry)
+├── favicon.ico # App favicon
+├── globals.css # Global CSS and Tailwind base styles
+├── jsconfig.json # JS path aliases
+├── layout.js # Root layout for the App Router
+├── next.config.mjs # Next.js configuration
+├── page.jsx # App root page
+├── package.json # Project metadata and scripts
+├── postcss.config.mjs # PostCSS configuration for Tailwind
+├── tailwind.config.js # Tailwind CSS configuration
 
 
 ## 📦 Installation
