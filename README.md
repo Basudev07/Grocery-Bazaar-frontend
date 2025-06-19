@@ -1,36 +1,128 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛒 Grocery Bazaar – Frontend
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![shadcn/ui](https://img.shields.io/badge/shadcn/ui-2E2E2E?style=for-the-badge&logo=react&logoColor=white)
 
-First, run the development server:
+**Grocery Bazaar** is a modern e-commerce frontend built using **Next.js**, styled with **Tailwind CSS**, and powered by the elegant **shadcn/ui** component library. This project delivers a fast, responsive, and accessible user interface that’s production-ready and highly scalable.
 
+---
+
+## 📸 Preview
+
+> Coming soon: Add deployment link and screenshots here.
+
+---
+
+## 🚀 Features
+
+✅ Built with **Next.js** 
+✅ Fully responsive design – mobile-first  
+✅ Elegant, accessible UI using **shadcn/ui**  
+✅ Utility-first styling via **Tailwind CSS**   
+✅ Component-driven development  
+✅ Performance-optimized and SEO-ready  
+✅ Easily integratable with backend (e.g. REST or GraphQL)
+
+---
+
+## 🧱 Tech Stack
+
+| Tech        | Purpose                           |
+|-------------|-----------------------------------|
+| **Next.js** | Full-stack React framework        |
+| **Tailwind**| Utility-first CSS for fast styling|
+| **shadcn/ui** | Modern, accessible UI components |
+
+---
+
+
+## 🗂️ Project Structure
+
+```txt
+grocery-bazaar/
+├── app/
+│   ├── _components/
+│   │   ├── CartItemList.jsx
+│   │   ├── CategoryList.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Header.jsx
+│   │   ├── ProductItem.jsx
+│   │   ├── ProductItemDetail.jsx
+│   │   ├── ProductList.jsx
+│   │   └── Slider.jsx
+│   ├── _context/
+│   │   └── UpdateCartContext.jsx
+│   ├── _utils/
+│   │   └── GlobalApi.jsx
+│   ├── (auth)/
+│   │   ├── create-account/
+│   │   │   └── page.jsx
+│   │   └── sign-in/
+│   │       └── page.jsx
+│   ├── (routes)/
+│   │   └── products-category/
+│   │       ├── _components/
+│   │       │   └── TopCategoryList.jsx
+│   │       └── [categoryName]/
+│   │           └── page.jsx
+│   ├── checkout/
+│   │   └── page.jsx
+│   ├── dashboard/
+│   │   └── page.jsx
+│   ├── myorder/
+│   │   └── page.jsx
+│   ├── profile/
+│   │   └── page.jsx
+│   └── search/
+│       └── page.jsx
+├── components/
+│   └── ui/
+│       ├── button.jsx
+│       ├── card.jsx
+│       ├── carousel.jsx
+│       ├── chart.jsx
+│       ├── dialog.jsx
+│       ├── dropdown-menu.jsx
+│       ├── input.jsx
+│       ├── select.jsx
+│       ├── sheet.jsx
+│       └── sonner.jsx
+├── lib/
+│   └── utils.js
+├── public/
+├── .env.local
+├── .gitignore
+├── components.json
+├── favicon.ico
+├── globals.css
+├── jsconfig.json
+├── layout.js
+├── next.config.mjs
+├── page.jsx
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+└── tailwind.config.js
+
+
+
+## 📦 Installation
 ```bash
+# Clone the repo
+git clone https://github.com/Basudev07/Grocery-Bazaar-frontend.git
+
+# Navigate to project folder
+cd Grocery-Bazaar-frontend
+
+# Install dependencies
+npm install
+
+# Start the dev server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+👤 Author
+Basudev Mondal
+📧 Email - basudevmondal740@gmail.com
+🔗 GitHub - @Basudev07
