@@ -8,9 +8,62 @@
 
 ---
 
-## 📸 Preview
+## 📸 UI Screenshots
 
-> Coming soon: Add deployment link and screenshots here.
+<p align="center">
+  <strong>🏠 Homepage</strong><br/>
+  <img src="./screenshots/homepage.jpg" alt="Homepage" width="800"/>
+</p>
+
+<p align="center">
+  <strong>🛒 Cart Items</strong><br/>
+  <img src="./screenshots/usercartitems.png" alt="Cart Items" width="800"/>
+</p>
+
+<p align="center">
+  <strong>🔍 Search</strong><br/>
+  <img src="./screenshots/search.png" alt="Search" width="800"/>
+</p>
+
+<p align="center">
+  <strong>📦 Checkout</strong><br/>
+  <img src="./screenshots/checkout.png" alt="Checkout" width="800"/>
+</p>
+
+<p align="center">
+  <strong>📂 Order History</strong><br/>
+  <img src="./screenshots/orderhistory.png" alt="Order History" width="800"/>
+</p>
+
+<p align="center">
+  <strong>📑 Product Details</strong><br/>
+  <img src="./screenshots/productdetails.png" alt="Product Details" width="800"/>
+</p>
+
+<p align="center">
+  <strong>📁 Shop by Category</strong><br/>
+  <img src="./screenshots/shopbycategory.png" alt="Shop by Category" width="800"/>
+</p>
+
+<p align="center">
+  <strong>👤 Profile</strong><br/>
+  <img src="./screenshots/profile.png" alt="Profile" width="800"/>
+</p>
+
+<p align="center">
+  <strong>🔐 Login</strong><br/>
+  <img src="./screenshots/userlogin.png" alt="Login" width="800"/>
+</p>
+
+<p align="center">
+  <strong>🆕 Create Account</strong><br/>
+  <img src="./screenshots/usercreateacc.png" alt="Create Account" width="800"/>
+</p>
+
+<p align="center">
+  <strong>📎 Footer</strong><br/>
+  <img src="./screenshots/footer.png" alt="Footer" width="800"/>
+</p>
 
 ---
 
