@@ -104,17 +104,7 @@ grocery-bazaar/
 ├── package.json
 ├── postcss.config.mjs
 └── tailwind.config.js
-```txt
 
-**Legend:**
-
-- `app/` – Next.js App Router structure (routes, contexts, UI)
-- `_components/` – Shared reusable UI widgets
-- `components/ui/` – UI elements built with shadcn/ui
-- `lib/` – Utility functions (e.g., formatters, API helpers)
-- `.env.local` – Environment variables (not pushed to Git)
-- `globals.css` – Tailwind base + global styles
-- `layout.js` – Root layout with header/footer config
 
 
 ## 📦 Installation
