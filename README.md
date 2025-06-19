@@ -104,6 +104,7 @@ grocery-bazaar/
 ├── package.json
 ├── postcss.config.mjs
 └── tailwind.config.js
+```txt
 
 **Legend:**
 
