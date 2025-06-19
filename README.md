@@ -36,7 +36,6 @@
 
 ---
 
-## 🗂️ Project Structure
 
 ## 🗂️ Project Structure
 
