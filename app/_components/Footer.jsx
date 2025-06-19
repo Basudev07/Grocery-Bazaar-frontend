@@ -63,7 +63,7 @@ function Footer() {
           <div>
             <h3 className="text-lg font-semibold text-gray-900">Support</h3>
             <ul className="mt-4 space-y-3 text-sm text-gray-700">
-              <li><a href="#" className="hover:text-green-600 transition">Contact Us</a></li>
+              <li><a href="/info" className="hover:text-green-600 transition">Contact Us</a></li>
               <li><a href="#" className="hover:text-green-600 transition">FAQs</a></li>
               <li><a href="#" className="hover:text-green-600 transition">Delivery Info</a></li>
             </ul>
