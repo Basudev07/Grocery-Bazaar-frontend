@@ -161,7 +161,7 @@ grocery-bazaar/
 
 
 ## 📦 Installation
-```bash
+
 # Clone the repo
 git clone https://github.com/Basudev07/Grocery-Bazaar-frontend.git
 
